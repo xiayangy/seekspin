@@ -1,0 +1,320 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!--顶部菜单-->
+    <include layout="@layout/top_menu" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--轮播图片显示
+            <com.javis.ab.view.AbSlidingPlayView
+                android:id="@+id/viewPager_menu"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:background="#00000000" />
+                -->
+
+            <!--轮播-->
+            <cn.bingoogolapple.bgabanner.BGABanner
+                android:id="@+id/banner_main_depth"
+                style="@style/BannerDefaultStyle"
+                app:banner_transitionEffect="depth" />
+
+            <!--设置区域间隔-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/bg_Gray" />
+
+            <!--插件展示区块-->
+            <com.jarvis.MyView.MyGridView
+                android:id="@+id/my_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:horizontalSpacing="10dp"
+                android:numColumns="4"
+                android:verticalSpacing="10dp" />
+            <!--设置区域间隔-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/bg_Gray" />
+
+            <!--表格数据-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <!--<Button-->
+                <!--android:id="@+id/qiehuan"-->
+                <!--android:text="切换"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:onClick="testClick"/>-->
+                <include
+                    android:id="@+id/table_title"
+                    layout="@layout/list_item" />
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/listview_bg"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="#f9b68b"
+                    android:dividerHeight="1.0dip"
+                    android:fadingEdge="none"
+                    android:scrollbars="none"></ListView>
+
+            </LinearLayout>
+
+
+            <!--设置区域间隔-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/bg_Gray" />
+            <!--表格数据-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/table2_title"
+                    layout="@layout/list_item" />
+
+                <ListView
+                    android:id="@+id/list2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/listview_bg"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="#f9b68b"
+                    android:dividerHeight="1.0dip"
+                    android:fadingEdge="none"
+                    android:scrollbars="none"></ListView>
+
+            </LinearLayout>
+
+            <!--&lt;!&ndash;设置区域间隔&ndash;&gt;-->
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--&lt;!&ndash;插件展示区块&ndash;&gt;-->
+            <!--<com.jarvis.MyView.MyGridView-->
+            <!--android:id="@+id/my_gridview"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:horizontalSpacing="10dp"-->
+            <!--android:numColumns="4"-->
+            <!--android:verticalSpacing="10dp" />-->
+
+            <!--&lt;!&ndash;设置区域间隔&ndash;&gt;-->
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--&lt;!&ndash;下方广告区域&ndash;&gt;-->
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.7"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/menu_1_0" />-->
+
+            <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/menu_1_1" />-->
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/menu_1_2" />-->
+
+            <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/menu_1_3" />-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+            <!--&lt;!&ndash;设置区域间隔&ndash;&gt;-->
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--&lt;!&ndash;特色市场布局&ndash;&gt;-->
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="特色市场"-->
+            <!--android:textColor="@color/tv_Black"-->
+            <!--android:textSize="20sp" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="0.7"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/menu_2_1" />-->
+
+            <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1.2"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/menu_2_2" />-->
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/menu_2_3" />-->
+
+            <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/menu_2_4" />-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--&lt;!&ndash;设置区域间隔&ndash;&gt;-->
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:background="@color/bg_Gray" />-->
+
+            <!--&lt;!&ndash;热门市场布局&ndash;&gt;-->
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="热门市场"-->
+            <!--android:textColor="@color/tv_Black"-->
+            <!--android:textSize="20sp" />-->
+
+            <!--<com.jarvis.MyView.MyGridView-->
+            <!--android:id="@+id/my_gridview_hot"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:horizontalSpacing="5dp"-->
+            <!--android:numColumns="3"-->
+            <!--android:verticalSpacing="5dp"></com.jarvis.MyView.MyGridView>-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/xiayangyang/study/demo/MyTaobaoTest/app/src/main/res/layout/home_f.xml -->

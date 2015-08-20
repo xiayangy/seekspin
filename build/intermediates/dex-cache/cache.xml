@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/xiayangyang/study/demo/StickyListHeaders/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/gson-2.3.1-e347e85716ff5e48088c46bc03abe7dd8bfdee0d.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/StickyListHeaders/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.8/77bbfe240e437ecb396d982afa0d3bd4f9090ba7/android-async-http-1.4.8.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.8-569b4eb0607cf2413659229a1374d4d696d4b7f7.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/libs/jpush-sdk-release1.8.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bea84de265dbd10ec4ea0d0185cf19dce738edd6">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/jpush-sdk-release1.8.0-14fd78bd52f674d05ea19e474867c350412d81bd.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/StickyListHeaders/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/gson-2.3.1-e347e85716ff5e48088c46bc03abe7dd8bfdee0d.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="668c66ef994fec47f1861ea185fe6aa205205f72">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-e40cfff9843bad1f3be1bbb2462c3c2b931ce6a6.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/libs/core.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="42fd0eaeee98eb9e1c8cfbcef742a34b54522c4c">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/core-87b13c52607452caac22319da46b998bac6750db.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="668c66ef994fec47f1861ea185fe6aa205205f72">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-e40cfff9843bad1f3be1bbb2462c3c2b931ce6a6.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/StickyListHeaders/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.8/77bbfe240e437ecb396d982afa0d3bd4f9090ba7/android-async-http-1.4.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.8-569b4eb0607cf2413659229a1374d4d696d4b7f7.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/android-sdks/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-9fc2d4bf68776bcaedec79b711e2bcef97d410d7.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cd611c5cbb4dec30ebd4ebea227eacbc7c3379c2">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-f9510d4cfe328e937ed8b0b164505c12945a72da.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/StickyListHeaders/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/library-2.4.0-5e2cb1df5357dfb595cc157fca17bc1ce697332b.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/cn.bingoogolapple/bga-banner/2.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe4abaa68df29a67e9b52358af0b3bef1eb332b8">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-86a79bfbb8d6b29358a598cd99288ee4e1be427b.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ec8bddbe9ea6919c141bbca6986c5499e049461">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-ecb640e8a16389ec7cc13d7824d137f50c641cda.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/StickyListHeaders/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/library-2.4.0-5e2cb1df5357dfb595cc157fca17bc1ce697332b.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-5352c04365f1215307e9759a65f86f3e795224b4.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/StickyListHeaders/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-6a9518e00bf15776024ffd09dfbd22efde809e00.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="309967f02af11bd65974c8bf6a783994d04c25c9">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-c069b01cabd7e9ae2760fc36eb53f9635985e18e.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-a784597cb160093611c3a6c77d2615e2c8b415bd.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="309967f02af11bd65974c8bf6a783994d04c25c9">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-c069b01cabd7e9ae2760fc36eb53f9635985e18e.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cd611c5cbb4dec30ebd4ebea227eacbc7c3379c2">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-f9510d4cfe328e937ed8b0b164505c12945a72da.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/cn.bingoogolapple/bga-banner/2.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe4abaa68df29a67e9b52358af0b3bef1eb332b8">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-86a79bfbb8d6b29358a598cd99288ee4e1be427b.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/StickyListHeaders/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-6a9518e00bf15776024ffd09dfbd22efde809e00.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/libs/cu_volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/cu_volley-9bfa6c65cb7c7bdfcd341db98c285a0cc7a88b80.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ec8bddbe9ea6919c141bbca6986c5499e049461">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-ecb640e8a16389ec7cc13d7824d137f50c641cda.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/libs/core.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42fd0eaeee98eb9e1c8cfbcef742a34b54522c4c">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/core-87b13c52607452caac22319da46b998bac6750db.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/libs/cu_volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/cu_volley-9bfa6c65cb7c7bdfcd341db98c285a0cc7a88b80.jar" />
+    </item>
+    <item
+        jar="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/xiayangyang/study/demo/MyTaobaoTest/app/build/intermediates/pre-dexed/debug/classes-4233cec4ed53aaf75f75461dcef1d90648b0c90c.jar" />
+    </item>
+
+</items>
