@@ -255,7 +255,7 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener, 
 
     // jpush start
     // 初始化 JPush。如果已经初始化，但没有登录成功，则执行重新登录。
-    private void init(){
+    private void init() {
         JPushInterface.init(getApplicationContext());
     }
 
@@ -264,6 +264,7 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener, 
     protected void onResume() {
         isForeground = true;
         super.onResume();
+        JPushInterface.onResume(this);
     }
 
 
@@ -271,6 +272,7 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener, 
     protected void onPause() {
         isForeground = false;
         super.onPause();
+        JPushInterface.onPause(this);
     }
 
 
@@ -313,7 +315,7 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener, 
         }
     }
 
-    private void setCostomMsg(String msg){
+    private void setCostomMsg(String msg) {
         if (null != msgText) {
             msgText.setText(msg);
             msgText.setVisibility(View.VISIBLE);

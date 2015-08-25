@@ -64,7 +64,6 @@ public class TableAdapter extends BaseAdapter {
         viewHolder.mTextName.setText(person.getName());
         viewHolder.mTextSex.setText(person.getSex());
         viewHolder.mTextAge.setText(person.getAge() + "岁");
-
         return convertView;
     }
 

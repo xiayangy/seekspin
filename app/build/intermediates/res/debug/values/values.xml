@@ -478,6 +478,7 @@
     <string name="style_hint">style为数字</string>
     <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_message_list">MessageListActivity</string>
     <string name="title_activity_slide_page_view">SlidePageView</string>
     <string name="title_activity_test">Test</string>
     <string name="xlistview_footer_hint_normal">查看更多</string>

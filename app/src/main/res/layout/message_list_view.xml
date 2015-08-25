@@ -1,37 +1,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/tv_Gray"
     android:descendantFocusability="blocksDescendants"
     android:orientation="vertical" >
-
-    <TextView
-        android:id="@+id/tv_date_msg_list_list_item"
-        android:layout_width="fill_parent"
-        android:layout_height="35dp"
-        android:background="#E3E3E3"
-        android:gravity="center"
-        android:text="今天"
-        android:textColor="@color/tv_Red"
-        android:textSize="13.5dp" />
 
     <LinearLayout
         android:id="@+id/layout_msg_list_list_item"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
         android:layout_marginTop="15dp" >
-
-        <CheckBox
-            android:id="@+id/cb_msg_list_list_item"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginRight="15dp"
-            android:background="@drawable/corners_bg"
-            android:button="@null"
-            android:visibility="gone" />
 
         <LinearLayout
             android:id="@+id/layout_content_msg_list_list_item"

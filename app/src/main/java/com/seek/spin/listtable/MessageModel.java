@@ -14,6 +14,15 @@ public class MessageModel {
     private String extraInfo;//其他信息
     private String readState;//阅读状态（已读 or 未读）
 
+    public MessageModel(String title, String content, Date date, String channelId, String extraInfo, String readState) {
+        this.title = title;
+        this.content = content;
+        this.date = date;
+        this.channelId = channelId;
+        this.extraInfo = extraInfo;
+        this.readState = readState;
+    }
+
     public String getReadState() {
         return readState;
     }

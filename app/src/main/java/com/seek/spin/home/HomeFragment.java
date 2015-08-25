@@ -187,6 +187,7 @@ public class HomeFragment extends Fragment {
         return views;
     }
 
+    //初始化list数据组件
     private void initInfoTable(View view) {
 
         ViewGroup tableTitle = (ViewGroup) view.findViewById(R.id.table_title);
